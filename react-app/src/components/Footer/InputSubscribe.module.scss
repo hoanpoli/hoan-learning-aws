@@ -1,0 +1,26 @@
+.Input {
+    width: 100%;
+    max-width: 294px;
+    border-radius: 999px;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-color: transparent;
+    border: 1px solid $secondary-700;
+    color: $secondary-100;
+}
+
+.Input::placeholder {
+    color: $secondary-100;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.InputBox {
+    button {
+        margin-left: -30px;
+    }
+}
+

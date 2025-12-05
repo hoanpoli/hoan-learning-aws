@@ -1,0 +1,105 @@
+.DonationInfoValue {
+    font-size: 14px;
+    font-weight: 500 !important;
+    line-height: 28px;
+    color: $neutral-900;
+    text-align: end;
+}
+
+.DonationInfoValueMobile {
+    font-size: 14px;
+    font-weight: 500 !important;
+    line-height: 28px;
+    color: $neutral-900;
+    text-align: start;
+}
+
+.DonationInfoLabel {
+    font-size: 14px;
+    line-height: 20px;
+    color: $neutral-500;
+    text-align: end;
+}
+
+.TextLabel {
+    color: $neutral-600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.TextValue {
+    color: $neutral-900;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500 !important;
+}
+
+.SocialMediaIcon {
+    padding: 12px;
+    border: 1px solid $neutral-300;
+    border-radius: 12px;
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+}
+
+.Description {
+    font-size: 24px;
+    color: $neutral-900;
+    font-family: 'Bree serif' !important;
+    line-height: 32px;
+}
+
+.DescriptionMobile {
+    font-size: 24px;
+    color: $neutral-900;
+    font-family: 'Bree serif' !important;
+    line-height: 32px;
+    text-align: center;
+}
+
+.SubDescription {
+    font-size: 16px;
+    color: $neutral-600;
+    line-height: 24px;
+}
+
+.SubDescriptionMobile {
+    font-size: 16px;
+    color: $neutral-600;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+.ExploreProgrammeText {
+    font-size: 16px;
+    font-weight: 600 !important;
+    line-height: 24px;
+}
+
+.ExploreProgrammeBox {
+    padding: 10px 18px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid $primary-50;
+    background-color: $primary-50;
+    color: $primary-700;
+}
+
+.ExploreProgrammeBoxActive {
+    padding: 10px 18px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid $primary-500;
+    background-color: $primary-500;
+    color: #FFF;
+}
+
+@media (max-width: 600px) {
+    .DonationInfoLabel {
+        text-align: start;
+    }   
+}

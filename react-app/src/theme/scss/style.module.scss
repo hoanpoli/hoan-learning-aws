@@ -1,0 +1,62 @@
+.Style :global(.title-card) {
+    font-weight: $font-medium;
+    font-size: $text-large;
+    line-height: 150%;
+    color: $neutral-900;
+    margin-bottom: 8px;
+  }
+  
+  .Style :global(button.MuiButtonBase-root.MuiButton-root.btn-filter) {
+    padding: 4px 18px;
+  }
+  .Style :global(button.MuiButtonBase-root.btn-filter svg) {
+    width: 20px;
+  }
+  
+  .Style :global(.p-dashboard) {
+    padding: 24px;
+  }
+  
+  .Style :global(.card-header) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Style :global(.card-header .filter-col) {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .Style :global(.bt) {
+    border-top: 1px solid $neutral-200;
+  }
+  .Style :global(.bb) {
+    border-bottom: 1px solid $neutral-200;
+  }
+  .Style :global(.br) {
+    border-right: 1px solid $neutral-200;
+  }
+  .Style :global(.bl) {
+    border-left: 1px solid $neutral-200;
+  }
+  
+  .Style :global(.btn-icon) {
+    display: block;
+    background-color: #fff;
+    border: 1px solid $neutral-300;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    margin-right: 24px;
+    min-width: 0;
+  }
+  .Style :global(.btn-icon svg) {
+    width: 20px;
+    transform: translate(-6px, -3px);
+  }
+  .Style :global(.btn-icon:hover) {
+    background-color: $neutral-200;
+  }
+  

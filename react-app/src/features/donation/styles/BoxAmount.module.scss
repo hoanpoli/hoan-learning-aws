@@ -1,0 +1,49 @@
+
+.TextLabel {
+    margin-top: 24px !important;
+    margin-bottom: 16px !important;
+    font-size: 16px;
+    font-weight: 600 !important;
+    line-height: 24px;
+    color: $secondary-50;
+}  
+
+.TextAmount {
+    font-size: 24px;
+    font-weight: 600 !important;
+    line-height: 32px;
+}
+
+.BoxActive {
+    background-color: $primary-100;
+    color: $secondary-800;
+    width: auto;
+    border-radius: 8px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.BoxInactive{
+    background-color: $secondary-100;
+    color: $secondary-800;
+    width: auto;
+    border-radius: 8px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    &:hover {
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 600px) {
+    .TextAmount {
+        font-size: 16px;
+        line-height: auto;
+    }
+}

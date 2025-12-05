@@ -1,0 +1,47 @@
+.DonationInfoValue {
+    font-family: 'Montserrat' !important;
+    font-size: 14px;
+    font-weight: 500 !important;
+    line-height: 28px;
+    color: $neutral-900;
+    text-align: end;
+}
+
+.DonationInfoValueMobile {
+    font-family: 'Montserrat' !important;
+    font-size: 14px;
+    font-weight: 500 !important;
+    line-height: 28px;
+    color: $neutral-900;
+    text-align: start;
+}
+
+.DonationInfoLabel {
+    font-size: 14px;
+    line-height: 20px;
+    color: $neutral-500;
+    text-align: end;
+}
+
+.DonationDescriptionText {
+    font-size: 16px;
+    line-height: 24px;
+    color: $neutral-900;
+    text-align: center;
+}
+
+.ButtonReturn {
+    border-radius: 12px;
+    padding: 10px 18px;
+    border: 1px solid $primary-500 !important;
+    background-color: $primary-500 !important;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+   
+}
+
+.TextButtonReturn {
+    font-family: 'Montserrat' !important;
+    font-size: 16px;
+    font-weight: 600 !important;
+    line-height: 24px;
+}

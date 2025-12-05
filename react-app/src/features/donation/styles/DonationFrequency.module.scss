@@ -1,0 +1,46 @@
+.TextLabel {
+    margin-top: 24px !important;
+    margin-bottom: 12px !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 24px;
+    color: $secondary-50
+}
+
+.BoxActive {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: $primary-100;
+    color: $secondary-800;
+    cursor: pointer;
+}
+
+.BoxInactive {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: $secondary-100;
+    color: $secondary-800;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fff;
+
+        .IconText {
+            color: $primary-300;
+        }
+    }
+}
+
+.TextBox {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 24px;
+}

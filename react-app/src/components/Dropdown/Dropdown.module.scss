@@ -1,0 +1,63 @@
+.dropdown {
+    position: relative;
+    width: 100% !important;
+  }
+  
+  .dropdownToggle {
+    background-color: transparent;
+    color: $secondary-100;
+    font-size: 16px;
+    font-family: 'Rubik';
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    left: 0;
+    background-color: $secondary-900;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    margin: 0;
+    border-radius: 8px;
+    padding: 10px 0;
+    width: auto;  // Mengatur lebar agar mengikuti konten
+    min-width: 100%; // Memastikan dropdown menu setidaknya selebar tombol
+  }
+  
+  .dropdownItemContainer {
+    width: 100% !important;
+    padding: 8px 32px;
+  }
+  
+  .dropdownItem {
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+    position: relative;
+    font-family: 'Rubik';
+    white-space: nowrap; // Mencegah teks item membungkus ke baris baru
+  
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background-color: white;
+      transition: width 0.3s ease, left 0.3s ease;
+    }
+  
+    &:hover:after {
+      width: 100%;
+      left: 0;
+    }
+  }
+  

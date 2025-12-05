@@ -1,0 +1,10 @@
+.Navbar {
+    background-color: $secondary-800;
+    padding: 20px 112px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}

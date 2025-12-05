@@ -1,0 +1,42 @@
+.TextTitle {
+    color: $secondary-50;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 24px;
+    margin-bottom: 12px !important;
+}
+
+.TextLabel {
+    color: $secondary-200;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;    
+}
+
+.TextValue {
+    color: $secondary-50;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 24px;
+}
+
+.BoxDoubleFalse {
+    cursor: pointer;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 8px 14px;
+    align-items: center;
+    border-radius: 999px;
+    border: 1px solid $primary-50;
+    background-color: $primary-50;
+}
+
+.TextBoxDouble {
+    color: $secondary-800;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 20px;
+}
